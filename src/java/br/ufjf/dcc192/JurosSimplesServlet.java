@@ -51,7 +51,7 @@ public class JurosSimplesServlet extends HttpServlet {
                 this.valor = 1000.0;
                 this.meses = 12;
                 this.taxaDeJuros = 0.01;
-                error = "Um dos parametros foi passado errado, portanto estão nos valores padrão.";
+                error = "Um dos parametros foi passado errado, portanto estão nos valores padrão (valor=" + this.valor + ", meses=" + this.meses + ", taxaDeJuros=" + this.taxaDeJuros + ").<br><br>";
             }
         }
         
