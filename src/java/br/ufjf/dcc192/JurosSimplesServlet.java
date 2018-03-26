@@ -98,7 +98,7 @@ public class JurosSimplesServlet extends HttpServlet {
                 out.println("<tr>");
                 out.println("<td>" + mes + "</td>");
                 for (Double juro : arrayJuros) {
-                    out.printf("<td>%.4f</td>\n", juro);
+                    out.printf("<td>%.2f</td>\n", juro);
                 }
                 out.println("</tr>");
             });
